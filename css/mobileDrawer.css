@@ -1,0 +1,93 @@
+/*-------------------------------------------Mobile new drawer-------------------------------------*/
+
+.bottom-nav {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0.8rem 0;
+  background-color: #1a1d21;
+  z-index: 999;
+  will-change: transform;
+  transform: translateZ(0);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.24);
+}
+
+.bottom-nav-item {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #c1c1c1;
+}
+
+.bottom-nav-link {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-nav-link:hover {
+  color: #fff;
+  font-weight: bold;
+}
+
+.bottom-nav-link span {
+  font-size: 10px;
+}
+
+.bottom-nav-link i {
+  font-size: 1.1rem;
+}
+
+.setFooter {
+  margin-bottom: 0 !important;
+}
+
+@media screen and (min-width: 0) and (max-width: 480px) {
+  #back-to-top .top {
+    bottom: 75px;
+  }
+
+  .setFooter {
+    margin-bottom: 4rem !important;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 991px) {
+  #back-to-top .top {
+    bottom: 75px;
+  }
+
+  .setFooter {
+    margin-bottom: 4rem !important;
+  }
+}
+
+.active {
+  color: #fff;
+  font-weight: bold;
+}
+
+.show_search {
+  visibility: visible;
+}
+
+@media (max-width: 991px) {
+  .iq-search-bar {
+    width: 100vw;
+    height: 80vh;
+    background: #141414;
+    z-index: 16;
+    top: 3.2rem;
+    left: auto;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+    margin-left: -15px;
+    margin-right: -15px;
+    visibility: hidden;
+  }
+}
