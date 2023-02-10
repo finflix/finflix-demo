@@ -9,6 +9,6 @@ We are working on a vision of providing the platform as the content aggregator f
 - [x] Signin using metamask / wallet connect
 - [x] Decentralized video content
 - [x] UI/UX for user ease
-- [ ] Uploading of videos and publishing content by the user itself (Content aggregation)
-- [ ] User dashboard to track the performance of videos
+- [x] Uploading of videos and publishing content by the user itself (Content aggregation)
+- [x] User dashboard to track the performance of videos
 - [ ] SEO improvements in the build 

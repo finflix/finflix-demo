@@ -1,0 +1,140 @@
+.like-panel {
+    background-color: #222222;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+
+.like-panel span i {
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+#chart>line {
+    stroke: #fff;
+    stroke-width: 1
+}
+
+.pipe-style {
+    z-index: 0;
+    position: relative;
+    font-size: 2rem;
+    font-weight: 100;
+    margin-top: -6px;
+    color: #555;
+}
+
+.main-content {
+    z-index: 0;
+    position: relative;
+}
+
+
+.progress-bar-setting {
+    display: block;
+    border-radius: inherit;
+    position: inherit;
+    height: 100%;
+    background-color: #007bff;
+}
+
+.first_text {
+    margin: 0px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(242, 244, 245);
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.little_text {
+    margin: 0px;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgb(242, 244, 245);
+    text-align: center;
+}
+
+.fundDetailsData {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.second_text {
+    margin: 0.6em 0px 0px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgb(242, 244, 245);
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.progress {
+    border-radius: 15px;
+}
+
+#min_donation_in_eth:focus {
+    background: #111;
+    color: #fff;
+}
+
+.stories-top-panel-div-second-anchor {
+    cursor: pointer;
+}
+
+#setColumnHeight {
+    height: 65rem;
+    overflow-y: scroll;
+}
+
+.form-control:focus {
+    background-color: #111;
+    color: #fff;
+}
+
+.input-group-text {
+    background-color: #495057 !important;
+    border: 1px solid #495057 !important;
+    color: #fff !important;
+}
+
+
+@media screen and (max-width: 768px) {
+    .like-panel span i {
+        font-size: 1rem;
+        cursor: pointer;
+    }
+
+    .gap-2 {
+        gap: 0.4rem !important;
+    }
+
+    .likeclass {
+        font-size: 1rem;
+    }
+
+    .like-panel {
+        padding: 7px 14px;
+    }
+
+    .hellotext {
+        width: 20% !important;
+    }
+
+    .text1 {
+        width: 80% !important;
+    }
+
+    .first_text {
+        font-size: 1.1rem;
+        line-height: 0.7rem;
+    }
+
+}

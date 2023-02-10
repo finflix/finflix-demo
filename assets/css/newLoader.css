@@ -1,0 +1,64 @@
+@keyframes ldio-orclk6era8b {
+    0% {
+        background: #007bff;
+    }
+
+    12.5% {
+        background: #007bff;
+    }
+
+    12.625% {
+        background: #cfdeff
+    }
+
+    100% {
+        background: #cfdeff
+    }
+}
+
+.ldio-orclk6era8b div {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: #cfdeff;
+    animation: ldio-orclk6era8b 1s linear infinite;
+}
+
+.loadingio-spinner-blocks-6z64s4i6x4q {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    overflow: hidden;
+    background: none;
+}
+
+.ldio-orclk6era8b {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform: translateZ(0) scale(1);
+    backface-visibility: hidden;
+    transform-origin: 0 0;
+    /* see note above */
+}
+
+.ldio-orclk6era8b div {
+    box-sizing: content-box;
+}
+
+.new-loader-wrapper {
+    z-index: 11111;
+    position: fixed;
+    min-width: 100vw;
+    min-height: 100vh;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4a4a4ad1;
+    flex-direction: column;
+    color: var(--text-color);
+}

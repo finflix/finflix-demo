@@ -73,6 +73,7 @@
 
 .show_search {
   visibility: visible;
+  display: block;
 }
 
 @media (max-width: 991px) {

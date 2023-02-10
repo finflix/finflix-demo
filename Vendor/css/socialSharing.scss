@@ -1,0 +1,70 @@
+.socialJS{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &.responsive{
+    @media only screen and (max-width: 921px) {
+      flex-direction: column;
+      position: fixed;
+      top:0;
+      bottom:0;
+      &.left{
+        left:0;
+      }
+      &.right{
+        right:0;
+      }
+    }
+  }
+}
+.socialJS-custom-tooltip{
+  background: #000000;
+  color: #fff;
+  position: fixed;
+  z-index: 9999999;
+  width: 320px;
+  text-align: center;
+  padding:1rem;
+  -webkit-border-radius: .25rem;
+  -moz-border-radius: .25rem;
+  border-radius: .25rem;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  @media only screen and (max-width: 921px) {
+    width: unset;
+  }
+  &.top-right{
+    top: 1rem;
+    right: 1rem;
+  }
+  &.top-left{
+    top: 1rem;
+    left: 1rem;
+  }
+  &.bottom-right{
+    bottom: 1rem;
+    right: 1rem;
+  }
+  &.bottom-left{
+    bottom: 1rem;
+    left: 1rem;
+  }
+  &.center-top{
+    top:1rem;
+    left: calc(50% - 160px);
+    @media only screen and (max-width: 921px) {
+      left: 1rem;
+      right: 1rem;
+    }
+  }
+  &.center-bottom{
+    bottom:1rem;
+    left: calc(50% - 160px);
+    @media only screen and (max-width: 921px) {
+      left: 1rem;
+      right: 1rem;
+    }
+  }
+}

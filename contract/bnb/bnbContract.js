@@ -1,0 +1,1 @@
+bnbContract = '0xff213964a43f38d5a833c6ca2d29863bc15e07c9';

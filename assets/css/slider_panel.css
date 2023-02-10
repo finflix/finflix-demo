@@ -1,0 +1,118 @@
+.news {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 4px;
+    padding: 1px;
+    -webkit-user-select: none;
+}
+
+.hellotext {
+    float: left;
+    color: #fff;
+    padding: 10px;
+    position: relative;
+    top: 1%;
+    box-shadow: inset 0 -15px 30px rgb(0 123 255 / 25%);
+    font: 16px 'Raleway', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -webkit-user-select: none;
+    cursor: pointer;
+    width: 13%;
+}
+
+.text1 {
+    box-shadow: none !important;
+    width: 90%;
+}
+
+.inner-text {
+    box-shadow: inset 0 -15px 30px rgb(0 0 0 / 40%);
+    padding: 8px 20px;
+    background: #3f4458;
+    display: flex;
+    width: fit-content;
+}
+
+
+.Marquee {
+    /* background: linear-gradient(-135deg, #008ed9, #8b00db); */
+    width: 85vw;
+    box-sizing: border-box;
+    padding: 1em;
+    color: #fff;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.Marquee-content {
+    display: flex;
+    animation: marquee 10s linear infinite running;
+}
+
+.Marquee-content:hover {
+    animation-play-state: paused;
+}
+
+.Marquee-tag {
+    width: fit-content;
+    margin: 0 1.5em;
+    padding: 0.5em;
+    /* background: rgba(255, 255, 255, 0.1); */
+    box-shadow: 5px 5px 20px #00000050, -5px -5px 15px #ffffff0a;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+}
+
+.Marquee-tag:hover {
+    background: #0e0e0e;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+@-moz-keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translate(-50%);
+    }
+}
+
+@-webkit-keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translate(-50%);
+    }
+}
+
+@-o-keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translate(-50%);
+    }
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translate(-50%);
+    }
+}

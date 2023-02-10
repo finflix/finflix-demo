@@ -1,0 +1,118 @@
+.socialJS {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 921px) {
+  .socialJS.responsive {
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+  }
+
+  .socialJS.responsive.left {
+    left: 0;
+  }
+
+  .socialJS.responsive.right {
+    right: 0;
+  }
+}
+
+.socialJS-custom-tooltip {
+  background: #000000;
+  color: #fff;
+  position: fixed;
+  z-index: 9999999;
+  width: 320px;
+  text-align: center;
+  padding: 1rem;
+  -webkit-border-radius: 0.25rem;
+  -moz-border-radius: 0.25rem;
+  border-radius: 0.25rem;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 921px) {
+  .socialJS-custom-tooltip {
+    width: unset;
+  }
+}
+
+.socialJS-custom-tooltip.top-right {
+  top: 1rem;
+  right: 1rem;
+}
+
+.socialJS-custom-tooltip.top-left {
+  top: 1rem;
+  left: 1rem;
+}
+
+.socialJS-custom-tooltip.bottom-right {
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.socialJS-custom-tooltip.bottom-left {
+  bottom: 1rem;
+  left: 1rem;
+}
+
+.socialJS-custom-tooltip.center-top {
+  top: 1rem;
+  left: calc(50% - 160px);
+}
+
+@media only screen and (max-width: 921px) {
+  .socialJS-custom-tooltip.center-top {
+    left: 1rem;
+    right: 1rem;
+  }
+}
+
+.socialJS-custom-tooltip.center-bottom {
+  bottom: 1rem;
+  left: calc(50% - 160px);
+}
+
+@media only screen and (max-width: 921px) {
+  .socialJS-custom-tooltip.center-bottom {
+    left: 1rem;
+    right: 1rem;
+  }
+}
+
+/*# sourceMappingURL=socialSharing.css.map */
+
+.socialJS {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.socialJS>a {
+  position: relative;
+  background: #1e1e1e;
+  padding: 0.7rem;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgb(34 34 34 / 20%), -5px -5px 10px rgb(0 0 0 / 40%);
+  transition: background-color .15s ease-in-out, border .15s ease-in-out, box-shadow .15s ease-in-out, color .15s ease-in-out;
+}
+
+.socialJS>a:hover {
+  background: #007bff42;
+  transition: 0.2s all ease-in;
+}
+
+.socialJS>a>i {
+  font-size: 2em;
+}

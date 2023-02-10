@@ -1,0 +1,66 @@
+.my-progress-bar {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 60px !important;
+    width: 60px !important;
+}
+
+.my-progress-bar canvas {
+    height: 60px !important;
+    width: 60px !important;
+}
+
+.progress-percentage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 11px;
+    font-family: verdana;
+    font-weight: bold;
+    color: #0ff;
+}
+
+.gap-16 {
+    gap: 1rem;
+}
+
+.custom-bar {
+    color: #fff;
+    font-size: 16px;
+}
+
+.peek-a-bar {
+    position: absolute;
+    width: 100%;
+    z-index: 1111;
+    color: #fff;
+}
+
+.peekbar-close {
+    cursor: pointer;
+    background: #00000066;
+    padding: 5px 7px;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.peekbar-close:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.blink_me {
+    animation: blinker 2s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
